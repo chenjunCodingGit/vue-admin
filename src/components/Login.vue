@@ -25,7 +25,7 @@ export default {
       logining: false,
       ruleForm2: {
         account: 'admin',
-        checkPass: '123456'
+        checkPass: 'admin'
       },
       regUrl: staticList.staticList[0],
       rules2: {
@@ -58,7 +58,7 @@ export default {
       ).then((res) => {
         if (res.ok) {
           res.json().then((res) => {
-            // console.log(res)
+            console.log(res)
             if (res.msg == 'success') {
               this.$router.push({ path: '/main' })
             }

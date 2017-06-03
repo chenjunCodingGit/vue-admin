@@ -1,5 +1,5 @@
 const staticList = [
-    '127.0.0.1'
+    '192.168.155.2'
 ]
 
 export default {
